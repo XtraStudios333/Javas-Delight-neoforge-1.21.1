@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "javasdelight:green_coffee_beans"
+  },
+  "result": {
+    "id": "javasdelight:roasted_coffee_beans"
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

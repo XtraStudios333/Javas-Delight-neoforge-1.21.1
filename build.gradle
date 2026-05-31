@@ -160,16 +160,28 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
     into "build/generated/sources/modMetadata"
 }
 
+
 repositories {
+    // Farmer's Delight repository
     maven {
         name = "CurseMaven"
-        url = "https://www.cursemaven.com"
+        url = "https://cursemaven.com"
+    }
+
+    // Jei repository
+    maven {
+        name = "BlameJared"
+        url = "https://maven.blamejared.com/"
     }
 }
 
 dependencies {
-    // Standard 1.21.1 NeoForge declaration format
+    // Farmer's Delight declaration
     implementation "curse.maven:farmers-delight-398521:8083481"
+
+    // JEI declarations
+    compileOnly "mezz.jei:jei-1.21.1-neoforge-api:19.21.0.247"
+    runtimeOnly "mezz.jei:jei-1.21.1-neoforge:19.21.0.247"
 }
 // Include the output of "generateModMetadata" as an input directory for the build
 // this works with both building through Gradle and the IDE.

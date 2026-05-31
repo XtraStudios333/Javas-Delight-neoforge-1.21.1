@@ -24,7 +24,7 @@ license="${mod_license}"
 modId="javasdelight" #mandatory
 
 # The version number of the mod
-version="1.21.1" #mandatory
+version="0.0.1" #mandatory
 
 # A display name for the mod
 displayName="Java's Delight" #mandatory
@@ -89,13 +89,19 @@ A cozy addon for Farmer's Delight that adds new brewing mechanics and sweets to 
     side="BOTH"
 
 
-[[dependencies.your_addon_mod_id]]
+[[dependencies.javasdelight]]
     modId = "farmersdelight"
     type = "required"
-    # This requires 1.21.1-1.3.2 or any higher version up to the next major MC release
-    versionRange = "[1.21.1-1.3.2,1.22)"
+    versionRange = "[1.3.2]"
     ordering = "AFTER"
     side = "BOTH"
+
+[[dependencies.javasdelight]]
+modId = "jei"
+type = "optional"
+versionRange = "[19.0,)"
+ordering = "AFTER"
+side = "CLIENT"
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
 # that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
 # stop your mod loading on the server for example.

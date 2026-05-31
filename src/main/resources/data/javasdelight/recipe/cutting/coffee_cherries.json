@@ -1,0 +1,26 @@
+
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "javasdelight:coffee_cherries"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "javasdelight:raw_coffee_beans"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
+}
