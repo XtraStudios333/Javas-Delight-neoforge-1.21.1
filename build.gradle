@@ -214,3 +214,11 @@ idea {
         downloadJavadoc = true
     }
 }
+sourceSets {
+    main {
+        resources {
+            // Tells the compiler to merge your manual resources AND your datagen outputs
+            srcDirs += 'src/generated/resources'
+        }
+    }
+}

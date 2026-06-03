@@ -1,0 +1,19 @@
+{
+  "values": {
+    "javasdelight:coffee_cherries": {
+      "chance": 0.3
+    },
+    "javasdelight:raw_coffee_beans": {
+      "chance": 0.3
+    },
+    "javasdelight:green_coffee_beans": {
+      "chance": 0.5
+    },
+    "javasdelight:roasted_coffee_beans": {
+      "chance": 0.5
+    },
+    "javasdelight:wild_coffee": {
+      "chance": 0.65
+    }
+  }
+}

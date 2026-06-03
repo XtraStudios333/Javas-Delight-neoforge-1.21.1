@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "javasdelight:block/coffee_cherry_bag_bottom",
+    "east": "javasdelight:block/coffee_cherry_bag_side",
+    "north": "javasdelight:block/coffee_cherry_bag_tied",
+    "particle": "javasdelight:block/coffee_cherry_bag_top",
+    "south": "javasdelight:block/coffee_cherry_bag_tied",
+    "up": "javasdelight:block/coffee_cherry_bag_top",
+    "west": "javasdelight:block/coffee_cherry_bag_side"
+  }
+}

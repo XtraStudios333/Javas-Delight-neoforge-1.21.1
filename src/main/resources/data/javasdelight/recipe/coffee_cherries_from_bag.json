@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "javasdelight:coffee_cherry_bag"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "javasdelight:coffee_cherries"
+  }
+}

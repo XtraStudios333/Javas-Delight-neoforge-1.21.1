@@ -2,14 +2,14 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "javasdelight:coffee_cherries"
+      "item": "javasdelight:wild_coffee"
     }
   ],
   "result": [
     {
       "item": {
         "count": 2,
-        "id": "javasdelight:raw_coffee_beans"
+        "id": "javasdelight:coffee_cherries"
       }
     }
   ],
