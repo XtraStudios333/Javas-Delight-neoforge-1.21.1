@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "item": "minecraft:bucket"
+    },
+    "w": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    "cwc",
+    "cbc",
+    "ccc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "javasdelight:copper_kettle"
+  }
+}

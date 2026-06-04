@@ -3,9 +3,20 @@
   "item.javasdelight.raw_coffee_beans": "Raw Coffee Beans",
   "item.javasdelight.green_coffee_beans": "Green Coffee Beans",
   "item.javasdelight.roasted_coffee_beans": "Roasted Coffee Beans",
+  "item.javasdelight.roasted_coffee_powder": "Roasted Coffee Powder",
+  "item.javasdelight.green_coffee_powder": "Green Coffee Powder",
 
   "block.javasdelight.coffee_cherry_bag": "Coffee Cherry Bag",
   "block.javasdelight.roasted_coffee_bag": "Roasted Coffee Bag",
   "block.javasdelight.wild_coffee": "Wild Coffee",
-  "block.javasdelight.coffee": "Coffee"
+  "block.javasdelight.coffee": "Coffee",
+  "block.javasdelight.copper_kettle": "Copper Kettle",
+
+  "item.javasdelight.raw_procelain": "Raw Porcelain",
+  "item.javasdelight.raw_procelain_cup": "Raw Porcelain Cup",
+  "item.javasdelight.procelain_cup": "Porcelain Cup",
+
+  "item.javasdelight.espresso": "Espresso",
+  "item.javasdelight.steamed_milk": "Steamed Milk",
+  "item.javasdelight.foamed_milk": "Foamed Milk"
 }

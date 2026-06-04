@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north,support=none,waterlogged=false": { "model": "javasdelight:block/copper_kettle" },
+    "facing=north,support=none,waterlogged=true":  { "model": "javasdelight:block/copper_kettle" },
+
+    "facing=east,support=none,waterlogged=false":  { "model": "javasdelight:block/copper_kettle", "y": 90 },
+    "facing=east,support=none,waterlogged=true":   { "model": "javasdelight:block/copper_kettle", "y": 90 },
+
+    "facing=south,support=none,waterlogged=false": { "model": "javasdelight:block/copper_kettle", "y": 180 },
+    "facing=south,support=none,waterlogged=true":  { "model": "javasdelight:block/copper_kettle", "y": 180 },
+
+    "facing=west,support=none,waterlogged=false":  { "model": "javasdelight:block/copper_kettle", "y": 270 },
+    "facing=west,support=none,waterlogged=true":   { "model": "javasdelight:block/copper_kettle", "y": 270 },
+
+    "facing=north,support=tray,waterlogged=false": { "model": "javasdelight:block/copper_kettle_tray" },
+    "facing=north,support=tray,waterlogged=true":  { "model": "javasdelight:block/copper_kettle_tray" },
+
+    "facing=east,support=tray,waterlogged=false":  { "model": "javasdelight:block/copper_kettle_tray", "y": 90 },
+    "facing=east,support=tray,waterlogged=true":   { "model": "javasdelight:block/copper_kettle_tray", "y": 90 },
+
+    "facing=south,support=tray,waterlogged=false": { "model": "javasdelight:block/copper_kettle_tray", "y": 180 },
+    "facing=south,support=tray,waterlogged=true":  { "model": "javasdelight:block/copper_kettle_tray", "y": 180 },
+
+    "facing=west,support=tray,waterlogged=false":  { "model": "javasdelight:block/copper_kettle_tray", "y": 270 },
+    "facing=west,support=tray,waterlogged=true":   { "model": "javasdelight:block/copper_kettle_tray", "y": 270 }
+  }
+}
